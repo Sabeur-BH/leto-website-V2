@@ -322,6 +322,7 @@ a {
 
 #vision-mission{
 	background: url("../images/leto images/background.svg");
+	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-right: 50px;
