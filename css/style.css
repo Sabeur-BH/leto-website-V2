@@ -319,3 +319,34 @@ a {
 }
 
 
+
+#vision-mission{
+	background: url("../images/leto images/background.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-right: 50px;
+	padding-left: 50px;
+	
+}
+
+
+.vision {
+	color: #5E70A2;
+}
+
+.donate{
+	color:#5E70A2 ;
+	background:#FFFFFF;
+  border: 2px solid transparent;
+  border-radius: var(--border-radius-large);
+  font-size: var(--btn-font-size);
+  font-weight: var(--font-weight-bold);
+  line-height: normal;
+  transition: all 0.3s;
+  padding: 10px 20px;
+}
+.donate:hover {
+  background:#5E70A2;
+  color: var(--white-color);
+}
+

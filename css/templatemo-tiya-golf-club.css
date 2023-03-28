@@ -653,6 +653,7 @@ strong {
   height: 100vh;
   min-height: 670px;
   margin-bottom: -90px;
+	
 }
 
 .hero-50 {
@@ -671,7 +672,7 @@ strong {
 }
 
 .hero-section svg {
-  position: absolute;
+  position:absolute;
   right: 0;
   left: 0;
 }
@@ -1287,3 +1288,5 @@ strong {
   }
 }
 
+	
+}
