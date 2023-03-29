@@ -933,7 +933,7 @@ strong {
 }
 
 .events-detail-info {
-  background-color: var(--section-bg-color);
+  background-color:#F2CC8F;
   border-radius: var(--border-radius-medium);
   padding: 50px 25px;
 }
