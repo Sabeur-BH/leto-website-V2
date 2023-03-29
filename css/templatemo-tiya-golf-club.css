@@ -13,11 +13,11 @@ https://templatemo.com/tm-587-tiya-golf-club
 :root {
   --white-color:                  #ffffff;
   --primary-color:                #81B29A;
-  --secondary-color:              #5E70A2;
+  --secondary-color:              #3D405B;
   --section-bg-color:             #F4F1DE;
   --custom-btn-bg-color:          #F2CC8F;
   --custom-btn-bg-hover-color:    #E07A5F;
-  --dark-color:                   #5E70A2;
+  --dark-color:                   #000000;
   --p-color:                      #717275;
   --link-hover-color:             #F2CC8F;
 
@@ -41,6 +41,7 @@ https://templatemo.com/tm-587-tiya-golf-club
   --font-weight-medium:           500;
   --font-weight-bold:             700;
 }
+
 
 body {
   background-color: var(--white-color);
@@ -231,10 +232,12 @@ strong {
 @-webkit-keyframes cd-rotate-1-in {
   0% {
     -webkit-transform: rotateX(180deg);
+	  transform: rotateX(180deg);
     opacity: 0;
   }
   35% {
     -webkit-transform: rotateX(120deg);
+	  transform: rotateX(120deg);
     opacity: 0;
   }
   65% {
@@ -242,16 +245,19 @@ strong {
   }
   100% {
     -webkit-transform: rotateX(360deg);
+	  transform: rotateX(360deg);
     opacity: 1;
   }
 }
 @-moz-keyframes cd-rotate-1-in {
   0% {
-    -moz-transform: rotateX(180deg);
+ -moz-transform: rotateX(180deg);
+	  transform: rotateX(180deg);
     opacity: 0;
   }
   35% {
     -moz-transform: rotateX(120deg);
+	  transform: rotateX(120deg);
     opacity: 0;
   }
   65% {
@@ -259,6 +265,7 @@ strong {
   }
   100% {
     -moz-transform: rotateX(360deg);
+	  transform: rotateX(360deg);
     opacity: 1;
   }
 }
@@ -294,10 +301,12 @@ strong {
 @-webkit-keyframes cd-rotate-1-out {
   0% {
     -webkit-transform: rotateX(0deg);
+	  transform: rotateX(0deg);
     opacity: 1;
   }
   35% {
     -webkit-transform: rotateX(-40deg);
+	  transform: rotateX(-40deg);
     opacity: 1;
   }
   65% {
@@ -305,16 +314,19 @@ strong {
   }
   100% {
     -webkit-transform: rotateX(180deg);
+	  transform: rotateX(180deg);
     opacity: 0;
   }
 }
 @-moz-keyframes cd-rotate-1-out {
   0% {
     -moz-transform: rotateX(0deg);
+	  transform: rotateX(0deg);
     opacity: 1;
   }
   35% {
     -moz-transform: rotateX(-40deg);
+	  transform: rotateX(-40deg);
     opacity: 1;
   }
   65% {
@@ -322,6 +334,7 @@ strong {
   }
   100% {
     -moz-transform: rotateX(180deg);
+	  transform: rotateX(180deg);
     opacity: 0;
   }
 }
@@ -454,7 +467,7 @@ strong {
   font-weight: var(--font-weight-bold);
   display: block;
   color: var(--dark-color);
-  max-width: 48px;
+  max-width: 70px;
 }
 
 .navbar .navbar-brand,
@@ -467,8 +480,8 @@ strong {
 }
 
 .navbar-brand-image {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
 }
 
 .navbar-brand-text {
@@ -716,7 +729,6 @@ strong {
   background-color: rgba(255, 255, 255, 0.75);
   border-radius: var(--border-radius-medium);
   border: 1px solid rgba(209, 213, 219, 0.3);
-  border-radius: var(--border-radius-medium);
   padding: 50px;
 }
 
@@ -1288,5 +1300,3 @@ strong {
   }
 }
 
-	
-}
