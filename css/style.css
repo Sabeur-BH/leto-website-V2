@@ -1,12 +1,51 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+
+/* Vision and mission */
+#vision-mission{
+	background: url("../images/leto images/background.svg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-right: 50px;
+	padding-left: 50px;
+	
+}
+
+.vision {
+	color: #5E70A2;
+}
+
+
+.vision{
+	padding-top: 300px;
+}
+
+.vision-p{
+	padding-bottom: 300px;
+}
+
+.mission{
+	padding-top: 500px;
+}
+.mission-p{
+	padding-bottom: 250px;
+}
+
 .value-colomn{
-	 margin: 0;
-  height: 100vh;
+	 margin-right: 40px;
+	margin-left: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 200px;
+}
+
+
+/* Values*/
+#values {
+	background: linear-gradient(180deg, #5E70A2 50%, #F2CC8F 50%);
 }
 
 .background-one {
@@ -37,16 +76,14 @@ a {
 }
 
 .link-one {
-  color: #5E70A2;
+  color: #FFFFFF;
   transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
-  line-height: 1em;
+  line-height: 4em;
 }
 
 .link-one:hover {
-  color: #FFFFFF;
+  color: #F2CC8F;
   transition: color 1s cubic-bezier(0.33, 1, 0.68, 1);
-
-  /* Thanks Chris Coyier, you got my back always. https://css-tricks.com/different-transitions-for-hover-on-hover-off/ */
 }
 
 .link-one::before {
@@ -75,7 +112,7 @@ a {
   height: 100%;
   top: 0;
   right: 0;
-  background-color: #FFFFFF;
+  background-color: #F2CC8F;
 
   clip-path: polygon(
     40% 0%,
@@ -88,64 +125,10 @@ a {
     40% 100%
   );
 
-  /*
-  Didn't look consistently awesome enough
-  across different viewing widths.
-  clip-path: polygon(
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%,
-    50% 50%
-  );
-  */
   transition: clip-path 1s cubic-bezier(0.65, 0, 0.35, 1);
 }
 
 .link-one:hover::after {
-  /*
-  clip-path: polygon(
-    20% 45%,
-    10% 40%,
-    30% 30%,
-    40% 35%,
-    60% 35%,
-    70% 30%,
-    90% 40%,
-    80% 45%,
-    60% 35%,
-    40% 35%,
-    20% 45%,
-    20% 55%,
-    10% 60%,
-    30% 70%,
-    40% 65%,
-    60% 65%,
-    70% 70%,
-    90% 60%,
-    80% 55%,
-    60% 65%,
-    40% 65%,
-    20% 55%
-  );
-  */
   clip-path: polygon(
     40% 10%,
     60% 10%,
@@ -159,7 +142,7 @@ a {
 }
 
 .link-two {
-  color: #F2CC8F;
+  color: #FFFFFF;
   transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
 }
 
@@ -268,7 +251,6 @@ a {
   transform: translate(0, 50%) scaleY(0);
   transition: transform 1s ease;
 
-  
 
   clip-path: polygon(
     80% 40%,
@@ -287,12 +269,23 @@ a {
 
 .link-three:hover::before {
   transform: translate(0%, 0%) scaleY(1);
-	 background-color: #5E70A2;
+	background-color: #5E70A2;
 	
 }
+
+.center{
+	align-content: center
+}
+
+
+/* Our service */
 #services {
   background-color:#F2CC8F;
   padding: 120px ;
+}
+
+h1{
+	padding-bottom: 10px;
 }
 
 .card {
@@ -312,27 +305,13 @@ a {
   line-height: 1.5;
 }
 
-.card-body i {
-  font-size: 48px;
-  color: #007bff;
-  margin-bottom: 20px;
+.card-body{
+	height:500px;
 }
 
-
-
-#vision-mission{
-	background: url("../images/leto images/background.svg");
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-right: 50px;
-	padding-left: 50px;
-	
-}
-
-
-.vision {
-	color: #5E70A2;
+.card-body-bg {
+	height: 450px;
+	padding-bottom: 30px;
 }
 
 .donate{
@@ -350,4 +329,6 @@ a {
   background:#5E70A2;
   color: var(--white-color);
 }
+
+
 
