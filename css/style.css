@@ -479,3 +479,6 @@ $red: #ff2d55;
 .title{
 	padding-top: 100px;
 }
+.text-justify{
+	text-align: justify;
+}
