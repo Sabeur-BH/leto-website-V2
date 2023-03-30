@@ -4,7 +4,7 @@
 
 
 /* Vision and mission */
-#vision-mission{
+#vision{
 	background: url("../images/leto images/background.svg");
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -279,7 +279,7 @@ a {
 
 
 /* Our service */
-#services {
+#service {
   background-color:#F2CC8F;
   padding: 120px ;
 }
@@ -470,5 +470,12 @@ $red: #ff2d55;
   }
 }
 
-
-
+.btn{
+	background: #5E70A2;
+}
+.site-footer{
+	padding-top: 50px;
+}
+.title{
+	padding-top: 100px;
+}
