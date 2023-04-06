@@ -1,3 +1,4 @@
+@import url("slider.css");
 /*
 
 TemplateMo 587 Tiya Golf Club
@@ -382,10 +383,12 @@ strong {
   line-height: normal;
   transition: all 0.3s;
   padding: 10px 20px;
+  width: 100px;
+  
 }
 
 .custom-btn:hover {
-  background: var(--custom-btn-bg-hover-color);
+  background: #F2CC8F;
   color: var(--white-color);
 }
 
@@ -710,11 +713,12 @@ strong {
 -----------------------------------------*/
 .section-bg-image {
   background-image: url('../images/leto images/Mockup 3.png');
-  background-repeat: no-repeat;
+  background-repeat:repeat-x;
   background-size: cover;
   background-position: center;
   position: relative;
   margin-bottom: -70px;
+	margin-top: -70px;
 }
 
 .section-bg-image .container + svg {

@@ -46,6 +46,7 @@
 /* Values*/
 #values {
 	background: linear-gradient(180deg, #5E70A2 50%, #F2CC8F 50%);
+	padding-bottom: 200px;
 }
 
 .background-one {
@@ -291,9 +292,11 @@ h1{
 .card {
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 25px;
 }
 
 .card-title {
+	color: #5E70A2;
   font-size: 24px;
   font-weight: 700;
   margin-top: 10px;
@@ -306,7 +309,15 @@ h1{
 }
 
 .card-body{
-	height:500px;
+	min-height: inherit;
+	padding-bottom: 60px;
+	
+}
+.half-colour{
+	background: linear-gradient(180deg, #F2CC8F 30%, #FFFFFF 70%);
+	border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 25px;
 }
 
 .card-body-bg {
@@ -472,6 +483,7 @@ $red: #ff2d55;
 
 .btn{
 	background: #5E70A2;
+	width: 100px;
 }
 .site-footer{
 	padding-top: 100px;
@@ -481,4 +493,81 @@ $red: #ff2d55;
 }
 .text-justify{
 	text-align: justify;
+}
+/* 
+---------------------------------------------
+Team Style
+--------------------------------------------- 
+*/
+
+.team {
+  margin-top: 100px;
+    padding-top: 140px;
+}
+
+.team-member {
+  position: relative;
+}
+
+.team-member:hover img {
+  top: -120px;
+}
+
+.team-member img {
+  max-width: 220px;
+  border-radius: 50%;
+  position: absolute;
+  top: -110px;
+  left: 50%;
+  transform: translateX(-110px);
+  transition: all .3s;
+}
+
+.team-member .main-content {
+  border-radius: 25px;
+  padding: 140px 30px 40px 30px;
+  background-color: #F2CC8F;
+  text-align: center;
+}
+
+.team-member .main-content span.category {
+  color: #5E70A2;
+  font-size: 15px;
+}
+
+.team-member .main-content h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+.team-member .main-content ul li {
+  display: inline-block;
+  
+}
+
+.team-member .main-content ul li a {
+  background-color: #fff;
+  text-align: center;
+  color: #5E70A2 ;
+  font-size: 18px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  transition: all .3s;
+}
+
+.team-member .main-content ul li a:hover {
+  background-color: #5E70A2;
+  color: #fff;
+}
+.names{
+	color:#5E70A2 ; 
+}
+
+
+.extra {
+	width: 120px;
+	color: #F2CC8F;
 }
