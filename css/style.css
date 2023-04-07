@@ -20,17 +20,20 @@
 
 
 .vision{
-	padding-top: 300px;
+	padding-top: 250px;
 }
 
 .vision-p{
+	font-size: 30px;
 	padding-bottom: 300px;
+	color: #5E70A2;
 }
 
 .mission{
 	padding-top: 500px;
 }
 .mission-p{
+	font-size: 30px;
 	padding-bottom: 250px;
 }
 
@@ -282,7 +285,8 @@ a {
 /* Our service */
 #service {
   background-color:#F2CC8F;
-  padding: 120px ;
+  padding-top: 120px;
+	padding-bottom: 120px;
 }
 
 h1{
@@ -309,8 +313,10 @@ h1{
 }
 
 .card-body{
-	min-height: inherit;
+	min-height: auto;
 	padding-bottom: 60px;
+	
+	
 	
 }
 .half-colour{
@@ -318,6 +324,8 @@ h1{
 	border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	margin-bottom: 25px;
+
+	
 }
 
 .card-body-bg {
@@ -507,6 +515,7 @@ Team Style
 
 .team-member {
   position: relative;
+	padding-bottom: 100px;
 }
 
 .team-member:hover img {
@@ -570,4 +579,17 @@ Team Style
 .extra {
 	width: 120px;
 	color: #F2CC8F;
+}
+
+/* 
+---------------------------------------------
+Footer
+--------------------------------------------- 
+*/
+.footer-image{
+	width: 55px;
+	text-align: center;
+}
+.footer-text {
+	font-size: 20px;
 }
