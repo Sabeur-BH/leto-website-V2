@@ -1020,7 +1020,7 @@ strong {
 
 .custom-form button[type="submit"]:hover,
 .custom-form button[type="submit"]:focus {
-  background: var(--custom-btn-bg-hover-color);
+  background:#5E70A2;
   border-color: transparent;
 }
 
