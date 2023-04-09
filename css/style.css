@@ -1,5 +1,6 @@
 @charset "utf-8";
-/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+/* CSS Document by us */
 
 
 
@@ -405,24 +406,14 @@ h1{
   }
 }
 
-$green: #4cd964;
-$turquoise: #5ac8fa;
-$blue: #007aff;
-$light-blue: #7dc8e8;
-$purple: #5856d6;
-$red: #ff2d55;
+
 
 .progress-bar3 {
   height: 18px;
   border-radius: 4px;
   background-image: linear-gradient(
     to right,
-    $green,
-    $turquoise,
-    $blue,
-    $light-blue,
-    $purple,
-    $red
+   
   );
   transition: 0.4s linear;
   transition-property: width, background-color;
@@ -435,56 +426,26 @@ $red: #ff2d55;
   0% {
     background-image: linear-gradient(
       to right,
-      $green,
-      $turquoise,
-      $blue,
-      $light-blue,
-      $purple,
-      $red
     );
   }
   20% {
     background-image: linear-gradient(
       to right,
-      $turquoise,
-      $blue,
-      $light-blue,
-      $purple,
-      $red,
-      $green
     );
   }
   40% {
     background-image: linear-gradient(
       to right,
-      $blue,
-      $light-blue,
-      $purple,
-      $red,
-      $green,
-      $turquoise
     );
   }
   60% {
     background-image: linear-gradient(
       to right,
-      $light-blue,
-      $purple,
-      $red,
-      $green,
-      $turquoise,
-      $blue
     );
   }
   100% {
     background-image: linear-gradient(
       to right,
-      $purple,
-      $red,
-      $green,
-      $turquoise,
-      $blue,
-      $light-blue
     );
   }
 }
@@ -586,11 +547,15 @@ Team Style
 Footer
 --------------------------------------------- 
 */
+
+
 .footer-image{
 	width: 55px;
 	text-align: center;
+	padding-bottom: 20px;
 }
 .footer-text {
 	font-size: 20px;
+	padding-bottom: 20px;
 }
 
