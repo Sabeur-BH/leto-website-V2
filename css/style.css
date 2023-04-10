@@ -398,7 +398,7 @@ h1{
 @keyframes progressAnimation {
   0% {
     width: 5%;
-    background-color: #f9bcca;
+    background-color: #9BA3F1;
   }
   100% {
     width: 85%;
@@ -411,7 +411,7 @@ h1{
 .progress-bar3 {
   height: 18px;
   border-radius: 4px;
-  background-image: linear-gradient(to right,);
+  background-image: linear-gradient(to right,#ffff00);
   transition: 0.4s linear;
   transition-property: width, background-color;
 }
@@ -421,19 +421,19 @@ h1{
 
 @keyframes colorAnimation {
   0% {
-    background-image: linear-gradient(to right,);
+    background-image: linear-gradient(to right,#ffff00);
   }
   20% {
-    background-image: linear-gradient(to right,);
+    background-image: linear-gradient(to right,#ffff00);
   }
   40% {
-    background-image: linear-gradient(to right,);
+    background-image: linear-gradient(to right,#ffff00);
   }
   60% {
-    background-image: linear-gradient(to right,);
+    background-image: linear-gradient(to right,#ffff00);
   }
   100% {
-    background-image: linear-gradient(to right,);
+    background-image: linear-gradient(to right,#ffff00);
   }
 }
 
