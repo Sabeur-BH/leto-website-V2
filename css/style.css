@@ -682,3 +682,10 @@ Suppurt us Journey
     .color-heading {
     color: #5E70A2;
     }
+
+#navbar-corporate{
+	background: #F2CC8F;
+	padding: 30px;
+	padding-right: 10px;
+	border-radius: 10px;
+}
