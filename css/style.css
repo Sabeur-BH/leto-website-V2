@@ -557,6 +557,7 @@ Footer
 .footer-text {
 	font-size: 20px;
 	padding-bottom: 20px;
+	color: #5E70A2;
 }
 
 .corporate-links {
@@ -566,7 +567,7 @@ Footer
 
 /* 
 ---------------------------------------------
-support us jurney
+Suppurt us Journey
 --------------------------------------------- 
 */
 
@@ -679,13 +680,13 @@ support us jurney
     }
     .timeline--entry:nth-of-type(even):not(:nth-of-type(odd)) .timeline--entry__title:before {
       left: 100%;
-      border-left: 10px solid ##5E70A2;
+      border-left: 10px solid #5E70A2;
       border-right: 0;
     }
     .timeline--entry:nth-of-type(even):before {
       left: 103%;
     }
   }
-}.color-heading {
+.color-heading {
 	color: #5E70A2;
 }
