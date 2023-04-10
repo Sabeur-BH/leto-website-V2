@@ -674,9 +674,10 @@ Suppurt us Journey
       border-right: 0;
     }
     .timeline--entry:nth-of-type(even):before {
-      left: 103%;
+    left: 103%;
     }
-  }
-.color-heading {
-	color: #5E70A2;
-}
+   }
+
+    .color-heading {
+    color: #5E70A2;
+    }
