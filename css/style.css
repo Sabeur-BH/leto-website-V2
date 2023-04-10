@@ -411,31 +411,34 @@ h1{
 .progress-bar3 {
   height: 18px;
   border-radius: 4px;
-  background-image: linear-gradient(to right,#ffff00);
+  background-image: linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,255,255,0.6), rgba(255,255,255,0.9));
   transition: 0.4s linear;
   transition-property: width, background-color;
 }
 
-
-
-
 @keyframes colorAnimation {
   0% {
-    background-image: linear-gradient(to right,#ffff00);
+    background-image: linear-gradient(
+      to right,
+      rgba(255,255,255,0.3),
+      rgba(255,255,255,0.6),
+      rgba(255,255,255,0.9)
+    );
   }
   20% {
-    background-image: linear-gradient(to right,#ffff00);
+    background-image: linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,255,255,0.6), rgba(255,0,0,0.9));
   }
   40% {
-    background-image: linear-gradient(to right,#ffff00);
+    background-image: linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,0,0,0.6), rgba(255,0,0,0.9));
   }
   60% {
-    background-image: linear-gradient(to right,#ffff00);
+    background-image: linear-gradient(to right, rgba(255,0,0,0.3), rgba(255,0,0,0.6), rgba(255,0,0,0.9));
   }
   100% {
-    background-image: linear-gradient(to right,#ffff00);
+    background-image: linear-gradient(to right, rgba(255,0,0,0.3), rgba(255,0,0,0.6), rgba(255,0,0,0.9));
   }
 }
+
 
 .btn{
 	background: #5E70A2;
