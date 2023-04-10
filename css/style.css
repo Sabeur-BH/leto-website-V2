@@ -6,7 +6,7 @@
 
 /* Vision and mission */
 #vision{
-	background: url("../images/leto images/background.svg");
+	background: url("../images/leto-svg/background.svg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -643,7 +643,6 @@ support us jurney
   border-radius: 50%;
   position: absolute;
   counter-increment: section;
-  content: counter(section);
   text-shadow: 0 1px 0 #424242;
   left: -4.5em;
 	
