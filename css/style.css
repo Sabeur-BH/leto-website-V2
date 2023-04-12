@@ -298,6 +298,7 @@ h1{
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	margin-bottom: 25px;
+  
 }
 
 .card-title {
@@ -319,13 +320,13 @@ h1{
 	
 	
 	
+	
 }
 .half-colour{
 	background: linear-gradient(180deg, #F2CC8F 30%, #FFFFFF 70%);
 	border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	margin-bottom: 25px;
-
 	
 }
 
@@ -466,7 +467,7 @@ Team Style
 
 .team-member {
   position: relative;
-	padding-bottom: 100px;
+	
 }
 
 .team-member:hover img {
